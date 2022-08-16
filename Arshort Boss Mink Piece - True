@@ -1,8 +1,76 @@
+_G.Condition = true 
+while _G.Condition == true do
+wait(0)
+
+
+ local args = {
+        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
+        [2] = 1,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
+        [2] = 2,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
+        [2] = 3,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
+        [2] = 4,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Arshort(Boss)"),
+        [2] = 1,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Arshort(Boss)"),
+        [2] = 2,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Arshort(Boss)"),
+        [2] = 3,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Arshort(Boss)"),
+        [2] = 4,
+        [3] = "Melee"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
 
     local args = {
         [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
         [2] = 1,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -10,7 +78,7 @@
     local args = {
         [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
         [2] = 2,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -18,7 +86,7 @@
     local args = {
         [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
         [2] = 3,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -26,7 +94,7 @@
     local args = {
         [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
         [2] = 4,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -34,7 +102,7 @@
     local args = {
         [1] = workspace:FindFirstChild("Arshort(Boss)"),
         [2] = 1,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -42,7 +110,7 @@
     local args = {
         [1] = workspace:FindFirstChild("Arshort(Boss)"),
         [2] = 2,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -50,7 +118,7 @@
     local args = {
         [1] = workspace:FindFirstChild("Arshort(Boss)"),
         [2] = 3,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
@@ -58,71 +126,10 @@
     local args = {
         [1] = workspace:FindFirstChild("Arshort(Boss)"),
         [2] = 4,
-        [3] = "Melee"
+        [3] = "Sword"
     }
     
     game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
 
-    local args = {
-        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
-        [2] = 1,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
-        [2] = 2,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
-        [2] = 3,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace.NPCs.Special:FindFirstChild("Arshort(Boss)"),
-        [2] = 4,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace:FindFirstChild("Arshort(Boss)"),
-        [2] = 1,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace:FindFirstChild("Arshort(Boss)"),
-        [2] = 2,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace:FindFirstChild("Arshort(Boss)"),
-        [2] = 3,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
-    
-    local args = {
-        [1] = workspace:FindFirstChild("Arshort(Boss)"),
-        [2] = 4,
-        [3] = "Sword"
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+
+end
